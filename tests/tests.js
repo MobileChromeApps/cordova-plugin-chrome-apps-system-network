@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-registerManualTests('chrome.system.network', function(rootEl, addButton) {
+exports.defineManualTests = function(rootEl, addButton) {
   addButton('Get Network Interfaces', function() {
     chrome.system.network.getNetworkInterfaces(function(networkInterfaces) {
       logger(JSON.stringify(networkInterfaces, null, 4));
     });
   });
-});
+};
