@@ -5,7 +5,7 @@
 exports.defineManualTests = function(rootEl, addButton) {
   addButton('Get Network Interfaces', function() {
     chrome.system.network.getNetworkInterfaces(function(networkInterfaces) {
-      logger(JSON.stringify(networkInterfaces, null, 4));
+      console.log(JSON.stringify(networkInterfaces, null, 4));
     });
   });
 };
