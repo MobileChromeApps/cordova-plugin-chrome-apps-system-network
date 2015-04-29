@@ -13,8 +13,8 @@
 
   <name>Chrome System Network API</name>
   <keywords>chrome,system,network</keywords>
-  <repo>https://github.com/MobileChromeApps/mobile-chrome-apps.git</repo>
-  <issue>https://github.com/MobileChromeApps/mobile-chrome-apps/issues</issue>
+  <repo>https://github.com/MobileChromeApps/cordova-plugin-chrome-apps-system-network.git</repo>
+  <issue>https://github.com/MobileChromeApps/cordova-plugin-chrome-apps-system-network/issues</issue>
 
   <js-module src="system.network.js" name="system.network">
     <clobbers target="chrome.system.network" />
