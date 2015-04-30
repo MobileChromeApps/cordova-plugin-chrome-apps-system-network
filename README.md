@@ -11,6 +11,10 @@ Stable on Android and iOS.
 The API reference is [here](https://developer.chrome.com/apps/system_network).
 
 # Release Notes
+
+## 1.1.2 (April 30, 2015)
+- Renamed plugin to pubilsh to NPM
+
 ## 1.1.1 (October 24, 2014)
 * Fixed Xcode build error
 
